@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>სარეგისტრაციო ფორმა</title>
+</head>
+<body>
+
+  <h1>რეგისტრაცია</h1>
+    <label for="name">სახელი:</label>
+    <input type="text" id="name" name="first_name">
+
+    <br><br>
+
+    <label for="lastname">გვარი:</label>
+    <input type="text" id="lastname" name="last_name">
+
+   <br><br>
+  <!--    select ი არის ჩამოსაშლელი სია -->
+    <label for="country">ქვეყანა:</label>
+    <select id="country" name="country">
+        <!-- value არის მნიშვნელობა რომელიც გადაეცემა საიტს -->
+      <option value="georgia">საქართველო</option>
+      <option value="usa">ამერიკის შეერთებული შტატები</option>
+      <option value="germany">გერმანია</option>
+      <option value="france">საფრანგეთი</option>
+    </select>
+
+    <br><br>
+ <!-- გადასცემს მონაცემებს რაც შეავსებთ ფორმაში -->
+    <button type="submit">დადასტურება</button>
+
+  </form>
+
+</body>
+</html>
